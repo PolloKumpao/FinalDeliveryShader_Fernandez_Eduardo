@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: LocalPostPro Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: -3292453609407527925}
+  - {fileID: 7845847085636555613}
 --- !u!114 &1696836531627175208
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -92,6 +92,34 @@ MonoBehaviour:
   color:
     overrideState: 1
     value: {r: 0.31011927, g: 0.5902544, b: 0.9528302, a: 1}
+  _innerRadius:
+    overrideState: 1
+    value: 0
+  _outerRadius:
+    overrideState: 1
+    value: 1
+--- !u!114 &7845847085636555613
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: VignetteSettings
+  m_EditorClassIdentifier: Assembly-CSharp::VignetteSettings
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  blend:
+    overrideState: 1
+    value: 1
+  color:
+    overrideState: 1
+    value: {r: 0, g: 0.89049053, b: 1, a: 1}
   _innerRadius:
     overrideState: 1
     value: 0
