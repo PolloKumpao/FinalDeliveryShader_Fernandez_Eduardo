@@ -7,7 +7,7 @@ using UnityEngine.Rendering.PostProcessing;
 //Needed to let unity serialize this and extend PostProcessEffectSettings
 [Serializable]
 //Using [PostProcess()] attrib allows us to tell Unity that the class holds postproccessing data. 
-[PostProcess(renderer: typeof(VignetteEffect),//First parameter links settings with actual renderer
+[PostProcess(renderer: typeof(Vignette),//First parameter links settings with actual renderer
             PostProcessEvent.AfterStack,//Tells Unity when to execute this postpro in the stack
             "Custom/Vignette")] //Creates a menu entry for the effect
                                     //Forth parameter that allows to decide if the effect should be shown in scene view
@@ -28,7 +28,7 @@ public sealed class VignetteSettings : PostProcessEffectSettings
                                                                              
 }
 
-public class VignetteEffect : PostProcessEffectRenderer<VignetteSettings>//<T> is the setting type
+public class Vignette : PostProcessEffectRenderer<VignetteSettings>//<T> is the setting type
 {
     public override void Render(PostProcessRenderContext context)
     {
