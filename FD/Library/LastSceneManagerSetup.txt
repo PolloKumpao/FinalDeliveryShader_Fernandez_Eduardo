@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Delivery2/Delivery2.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
