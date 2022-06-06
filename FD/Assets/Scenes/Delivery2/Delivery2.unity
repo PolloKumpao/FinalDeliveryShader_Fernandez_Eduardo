@@ -2888,9 +2888,9 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles:
-  - assemblyQualifiedName: VignetteSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   - assemblyQualifiedName: PixelateSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - assemblyQualifiedName: Vignette, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!20 &836432384
 Camera:
@@ -5312,7 +5312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: 98c9b7b6a808ff1419def9981e44b44d, type: 2}
   isGlobal: 0
-  blendDistance: 0.3
+  blendDistance: 0.35
   weight: 1
   priority: 0
 --- !u!65 &1350306544

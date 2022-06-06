@@ -15,11 +15,11 @@ E:/edufs/Documents/OneDrive/Escritorio/Enti_Bien/Shaders/FinalDelivery/FinalDeli
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52505
+49291
 Successfully changed project path to: E:/edufs/Documents/OneDrive/Escritorio/Enti_Bien/Shaders/FinalDelivery/FinalDeliveryShader_Fernandez_Eduardo/FD
 E:/edufs/Documents/OneDrive/Escritorio/Enti_Bien/Shaders/FinalDelivery/FinalDeliveryShader_Fernandez_Eduardo/FD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -35,41 +35,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005465 seconds.
+Registered in 0.005141 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 32.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.530 seconds
+- Completed reload, in  1.386 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1530ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (457ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (165ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
+				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadAttributes (71ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,53 +77,83 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011991 seconds.
+Registered in 0.011439 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000248C7E1D660 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C74FC800 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7BAF020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7BC3830 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C74FC800 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2805840 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C74FC800 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2805840 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C74FC800 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2ADD250 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C70D6E40 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C70D6E40 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C80F1030 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2679820 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C6C13020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
+- Completed reload, in  1.185 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1156ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (920ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (380ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1523 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 77.6 MB.
 System memory in use after: 77.7 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 2.157400 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.810100 ms  DeleteObjects: 0.097900 ms)
+Total: 2.321000 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.023600 ms  DeleteObjects: 0.087700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,74 +167,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset
-  artifactKey: Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset using Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e5e473c25dd1f9c8f4c710c9f17bae') in 0.051086 seconds 
-  Import took 0.053651 seconds .
+  path: Assets/Scripts/Vignette.cs
+  artifactKey: Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Vignette.cs using Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1278620abb639447384a9f20c6bdf6fb') in 0.040888 seconds 
+  Import took 0.043246 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.696111 seconds.
-  path: Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset
-  artifactKey: Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset using Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637ceec33682c897b3bf6810caeb93ec') in 0.010287 seconds 
-  Import took 0.013425 seconds .
+  Time since last request: 9.444790 seconds.
+  path: Assets/Shaders/Vignette.shader
+  artifactKey: Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vignette.shader using Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730d9586a876f70375a4031dc1e12060') in 0.079212 seconds 
+  Import took 0.082933 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.738309 seconds.
-  path: Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset
-  artifactKey: Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Delivery2/Delivery2_Profiles/Water.asset using Guid(98c9b7b6a808ff1419def9981e44b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b47ccccfdb9e6ad33fc74336a23a56') in 0.013025 seconds 
-  Import took 0.017969 seconds .
+  Time since last request: 0.710031 seconds.
+  path: Assets/Shaders/Vignette.shader
+  artifactKey: Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Vignette.shader using Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730d9586a876f70375a4031dc1e12060') in 0.015299 seconds 
+  Import took 0.018000 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020305 seconds.
+Registered in 0.010195 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000248C2D72710 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C6F64020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA869030 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2FC7870 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C6F64020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA5E9C50 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C28B2010 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2EA0010 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C6F64020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA4E7040 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C2A98030 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA8D10A0 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C67CDD90 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CAA39C10 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C6C8B020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.553 seconds
+- Completed reload, in  1.067 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1553ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1068ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1266ms)
-			LoadAssemblies (171ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (485ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1480 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.8 MB.
 System memory in use after: 73.9 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 2.531300 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.058000 ms MarkObjects: 2.255200 ms  DeleteObjects: 0.026900 ms)
+Total: 1.976900 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.727800 ms  DeleteObjects: 0.021100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -217,134 +277,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 163.670300 seconds.
-  path: Assets/Shaders/Vignette.shader
-  artifactKey: Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Vignette.shader using Guid(958462e302ef469498efc80bc3c5a4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8de77ca23e67c380d424216e68ebbb') in 0.034603 seconds 
-  Import took 0.038163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.637579 seconds.
-  path: Assets/Scripts/Vignette.cs
-  artifactKey: Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Vignette.cs using Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0483ce4d61a30c0f69704e306da036') in 0.401899 seconds 
-  Import took 0.433635 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012380 seconds.
+Registered in 0.011739 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000248C286D030 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA65D070 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CDE6D140 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C818B010 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA65D070 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C869E410 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CDE6D140 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CDBD1020 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA65D070 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CAC1B9C0 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA65D070 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA65D070 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CA5E9C50 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C70C6130 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248CDCF9010 doesn't match image E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Shaders\FinalDelivery\FinalDeliveryShader_Fernandez_Eduardo\FD\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  1.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1183ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1627ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (976ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1418ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (821ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (320ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1480 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.8 MB.
 System memory in use after: 74.0 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1966.
-Total: 2.627300 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.300300 ms  DeleteObjects: 0.033200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 40.379528 seconds.
-  path: Assets/Scripts/Vignette.cs
-  artifactKey: Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Vignette.cs using Guid(d40c967ed5a309948810636d8e8cd7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6e3f5350bc0043745d2438172edaaf') in 0.016113 seconds 
-  Import took 0.019709 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.026009 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1284ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1088ms)
-			LoadAssemblies (296ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (277ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1480 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.9 MB.
-System memory in use after: 74.0 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1969.
-Total: 1.730400 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.489800 ms  DeleteObjects: 0.047300 ms)
+Total: 2.075100 ms (FindLiveObjects: 0.142700 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.864500 ms  DeleteObjects: 0.017300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
